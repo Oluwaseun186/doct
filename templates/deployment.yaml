@@ -7,14 +7,14 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: test2
+      app: test22
   template:
     metadata:
       labels:
-        app: test2
+        app: test22
     spec:
       containers:
         - name: docker image
-          image: oluwaseun7/dmailer:latest
+          image: oluwaseun7/dmailer:latest2
           ports:
             - containerPort: 3001
