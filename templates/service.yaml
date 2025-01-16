@@ -4,8 +4,9 @@ metadata:
   name: service
   namespace: argocd
 spec:
+type: Loadbalancer
   selector:
-    app: app
+    app: test
   ports:
     - port: 3000
       targetPort: 3001
