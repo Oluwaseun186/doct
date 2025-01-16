@@ -14,7 +14,7 @@ spec:
         app: test
     spec:
       containers:
-        - name: "docker image image"
+        - name: "docker image"
           image: oluwaseun7/dmailer:latest
           ports:
             - containerPort: 3001
