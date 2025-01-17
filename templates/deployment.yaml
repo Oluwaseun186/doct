@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: docker-image
-          image: oluwaseun7/dmailer:1.0.4
+          image: oluwaseun7/dmailer:1.0.5
           imagePullPolicy: Always
           resources:
             limits:
