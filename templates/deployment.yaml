@@ -21,4 +21,7 @@ spec:
               memory: "128Mi"
               cpu: "500m"          
           ports:
-            - containerPort: 3001
+            # - name: app-port
+            - containerPort: 3000
+            # - name: app-port2
+            #   containerPort: 3002 
