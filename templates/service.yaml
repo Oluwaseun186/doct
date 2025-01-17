@@ -4,7 +4,7 @@ metadata:
   name: service
   namespace: argocd
 spec:
-  type: Loadbalancer
+  type: LoadBalancer
   selector:
     app: test2
   ports:
