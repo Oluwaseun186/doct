@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: "deployment"
+  name: deployment
   namespace: argocd
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: test3
+      app: test4
   template:
     metadata:
       labels:
-        app: test3
+        app: test4
     spec:
       containers:
-        - name: "Docker image"
+        - name: Docker image
           image: oluwaseun7/dmailer:1.0.1
           imagePullPolicy: Always
           resources:
