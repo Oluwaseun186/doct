@@ -7,11 +7,11 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: testing1
+      app: testing11
   template:
     metadata:
       labels:
-        app: testing1
+        app: testing11
     spec:
       containers:
         - name: docker-image
