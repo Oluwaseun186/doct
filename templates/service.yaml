@@ -6,7 +6,7 @@ metadata:
 spec:
   type: Loadbalancer
   selector:
-    app: test2
+    app: test22
   ports:
     - port: 3000
       targetPort: 3001

@@ -7,15 +7,15 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: test22
+      app: test222
   template:
     metadata:
       labels:
-        app: test22
+        app: test222
     spec:
       containers:
         - name: docker image
-          image: oluwaseun7/dmailer:latest2
+          image: oluwaseun7/dmailer:latest22
           imagePullPolicy: Always
           resources:
             limits:
